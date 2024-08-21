@@ -1,0 +1,91 @@
+body{
+	background-color: lightblue;
+}
+header{
+	background-color: lightyellow;
+	height: 100px;
+	color: lightcoral;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+main{
+background-color: #CCFFFF;
+width: 60%;
+float: left;
+text-align: center;
+font-size: 24px;
+}
+nav{
+	float: right;
+	text-align: center;
+	background-color: #99FF99;
+	width: 20%;
+}
+aside{
+	width: 20%;
+	background-color: #CCFF99;
+	float: right;
+	text-align: center;
+}
+article{
+	margin: 10px;
+	border: double 4px #CC6666;
+}
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 5px;
+  height: 40px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn23 {
+  background-image: linear-gradient(
+    to right,
+    #009245,
+    #fcee21,
+    #00a8c5,
+    #d9e021
+  );
+  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+.audio {
+	background-color: #99FF99;
+}
+.video {
+	background-color: #CC0033;
+	margin: 5px;
+	border: dashed 5px #CC0033;
+}
+@media only screen and (max-width:800px){nav,main,aside{
+  width: 100%;
+}
+}
+.mk{
+	background-color: lightyellow;
+	height: 70px;
+	background: linear-gradient(to right, #6b0d06,lightyellow,#6b0d06);
+}

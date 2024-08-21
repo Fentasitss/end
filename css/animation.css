@@ -1,0 +1,215 @@
+body{
+	background-color: lightskyblue;
+}
+p{
+	font-size: 50px;
+	color: lightpink;
+	text-align: center;
+	background-color: lightcoral;
+}
+div{
+	width: 200px;
+	height: 200px;
+	background-color: deepskyblue;
+}
+.d1{
+	animation-name: example1;
+	animation-duration: 5s;
+}
+@keyframes example1{
+	from{background-color: deepskyblue;}
+	to{background-color: lightcoral;}
+}
+.d2{
+	animation-name: example2;
+	animation-duration: 5s;
+}
+@keyframes example2{
+	0%{background-color: deeppink;}
+	25%{background-color: hotpink;}
+	50%{background-color: pink;}
+	75%{background-color: lightpink;}
+	100%{background-color: lightskyblue;}
+}
+.d3{
+	position: relative;
+	animation-name: example3;
+	animation-duration: 5s;
+}
+@keyframes example3{
+0%{background-color:deeppink; left: 0px; top: 0px; }
+25%{background-color: Lightblue; left: 400px; top: 0px;}
+50%{background-color: burlywood; left: 400px;top: 400px;}
+75%{background-color: khaki; left: 0px; top: 400px;}
+100%{background-color: seagreen; left: 0px; top: 0px;}
+}
+.d4{
+position: relative;
+animation-name: example4;
+animation-duration: 5s;
+animation-delay: 2s;
+}
+@keyframes example4{
+	0%{background-color:deeppink; left: 0px;top: 0px;	}
+	25%{background-color: lightblue; left: 400px;top: 0px;}
+	50%{background-color:burlywood;	left: 400px;top: 400px;}
+	75%{background-color: khaki; left: 0px;top: 400px;}
+	100%{background-color:seagreen;	left: 0px;top: 0px;}
+}
+.d5{
+	position: relative;
+	animation-name: example5;
+	animation-duration: 5s;
+	animation-delay: -2s;
+}
+@keyframes example5{
+	0%{background-color:deeppink; left: 0px;top: 0px;	}
+	25%{background-color: lightblue; left: 400px;top: 0px;}
+	50%{background-color:burlywood;	left: 400px;top: 400px;}
+	75%{background-color: khaki; left: 0px;top: 400px;}
+	100%{background-color:seagreen;	left: 0px;top: 0px;}
+}
+.d6{
+	position: relative;
+	animation-name: example6;
+	animation-duration: 5s;
+	animation-iteration-count: 3;
+}
+@keyframes example6{
+	0%{background-color:deeppink; left: 0px;top: 0px;	}
+	25%{background-color: lightblue; left: 400px;top: 0px;}
+	50%{background-color:burlywood;	left: 400px;top: 400px;}
+	75%{background-color: khaki; left: 0px;top: 400px;}
+	100%{background-color:seagreen;	left: 0px;top: 0px;}
+}
+.d7{
+	position: relative;
+	animation-name: example7;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes example7{
+	0%{background-color:deeppink; left: 0px;top: 0px;	}
+	25%{background-color: lightblue; left: 400px;top: 0px;}
+	50%{background-color:burlywood;	left: 400px;top: 400px;}
+	75%{background-color: khaki; left: 0px;top: 400px;}
+	100%{background-color:seagreen;	left: 0px;top: 0px;}
+}
+.d8{position: relative;animation-name: examples;animation-duration: 5s;animation-iteration-count: infinite;animation-direction: reverse;}
+@keyframes examples{
+0%{background-color:deeppink; left: 0px; top: 0px; }
+25%{background-color: Lightblue; left: 400px; top: 0px;}
+50%{background-color:burLywood; Left: 400px; top: 400px;}
+75%{background-color: khaki; Left: 8px; top: 400px;}
+100%{background-color:seagreen; left: 0px; top: 0px;}
+}
+.d9{
+	position: relative;
+	animation-name: example9;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+}
+@keyframes example9{
+	0%{background-color:deeppink; Left: 0px; top: 0px; }
+	25%{background-color: Lightblue; Left: 400px; top: 0px;}
+	50%{background-color:burlywood; Left: 400px; top: 400px;}
+	75%{background-color: khaki; left: 8px; top: 400px;}
+	100%{background-color:seagreen; left: 8px; top: 0px;}
+}
+
+.d11{
+position: relative;
+animation-name: example11;
+animation-duration: 5s;
+animation-iteration-count:infinite;
+animation-direction: alternate-reverse;
+animation-timing-function: Linear;
+}
+@keyframes example11{
+	0%{background-color:deeppink; Left: 0px; top: 0px;}
+	25%{background-color: Lightblue; left: 400px; top: 0px;}
+	50%{background-color:burlywood; left: 400px; top: 400px;}
+	75%{background-color: khaki; left: 8px; top: 400px;}
+	100%{background-color:seagreen; left: 0px; top: 0px;}
+}
+.d12{
+	position: relative;
+	animation-name: example12;
+	animation-duration: 5s;
+	animation-iteration-count:infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease;
+}
+@keyframes example12{
+	0%{background-color:deeppink; left: 0px; top: 0px; }
+	25%{background-color-Lightblue; left: 480px; top: 8px;}
+	50%{background-color:burlywood; left: 480px; top: 400px;}
+	75%{background-color: khaki; Left: 8px; top: 400px;}
+	100%{background-color:seagreen; left: 0px; top: 0px;}
+}
+.d13{
+	position: relative;
+	animation-name: example13;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in;
+}@keyframes example13{
+	0%{background-color:deeppink; left: 0px; top: 0px; }
+	25%{background-color: Lightblue; left: 400px; top: 0px;} 
+	50%{background-color:burlywood; Left: 400px; top: 400px;}
+	75%{background-color: khaki; left: 0px; top: 400px;}
+	100%{background-color:seagreen; left: 0px; top: 0px;}
+}
+.d14{position: relative;
+	animation-name: example14;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-out;}
+}
+@keyframes example14{
+	0%{background-color:deeppink; left: 0px; top: 0px; }
+	25%{background-color: Lightblue; left: 400px; top: 0px;}
+	50%{background-color:burlywood; left: 480px; top: 480px;}
+	75%{background-color: khaki; Left: 0px; top: 400px;}
+	100%{background-color:lightcoral; left: 0px; top: 0px;}
+}
+.d15{
+	position: relative;
+	animation-name: example15;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in-out;
+}
+@keyframes example15{
+	0%{background-color:deeppink; Left: 8px; top: 0px; }
+	25%{background-color: Lightblue; left: 400px; top: 8px;}
+	50% {background-color:burlywood; Left: 400px; top: 400px;}
+	75%{background-color: khaki; left: 8px; top: 400px;}
+	100%{background-color:seagreen; left: 0px; top: 0px;}
+}
+.d16{
+	position: relative;
+	animation-name: example16;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: cubic-bezier(1,2,2,2);
+}
+@keyframes example16{
+	0%{background-color: darkblue; left: 0px;top: 0px;}
+	100%{background-color: darkkhaki; left: 800px; top: 0px}
+}
+.d17{
+	position: relative;
+	animation: example17 5s linear infinite alternate-reverse;
+	border-radius: 50%;
+}
+@keyframes example17{
+	0%{background-color: darkblue; left: 0px;top: 0px;}
+	100%{background-color: darkkhaki; left: 800px; top: 0px}
+}
+.d18{position: relative;animation-name: example18;animation-duration: 5s;animation-iteration-count: infinite;animation-direction: alternate-reverse;animation-timing-function: cubic-bezier (1,2,2,2);border-radius: 25%;border: double 5px green;}@keyframes example18{0%{background-color: deeppink; left: 0px; top: 0px; transform: rotate(0deg);}100%{background-color:seagreen; Left: 800px; top: 0px; transform: rotate(360deg);}}

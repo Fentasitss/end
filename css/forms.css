@@ -1,0 +1,20 @@
+body{
+	background-color: rgb(15, 227, 238);;
+}
+p{
+	font-size: 50px;
+	color: lightyellow;
+	background-color: lightcoral;
+	text-align: center;
+}
+form{
+	font-size: 24px;
+}
+input{
+	font-size: 24px;
+	font-family: serif;
+}
+.radio{
+	width: 24px;
+	height: 24px;
+}
